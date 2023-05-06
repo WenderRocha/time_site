@@ -3,3 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --primary: #F0C969;
+    --primary-light: #FFE196;
+    --primary-dark: #C9A03A;
+    --secondary: #1D1D1B;
+    --secondary-light: #424242;
+    --secondary--dark: #0D0D0C;
+    --light: #ffffff;
+    --light-dark: #D9D5D5;
+    --dark: #0F0F0F;
+    --dark-light: #292929;
+    --black: #000000;
+    --danger: #EC3434;
+    --danger-light: #FF4D4D;
+    --danger-dark: #C70E0E;
+    --success: #2B9904;
+    --success-light: #4BBF22;
+    --success-dark: #1E7300;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+header{
+    max-width: 100%;
+    height: 100vh;
+}
