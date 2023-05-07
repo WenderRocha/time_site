@@ -90,9 +90,10 @@ header{
     min-height: 100vh;
 }
 .container {
-    max-width: 90%;
+    max-width: 1170px;
     min-height: 100vh;
     margin: 0 auto;
+    padding: 0 4%;
 }
 .top{
     display: flex;
