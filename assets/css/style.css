@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 
 :root{
@@ -24,12 +29,127 @@
     --success-dark: #1E7300;
 }
 
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
+.c-primary {
+    color: var(--primary);
+}
+.d-flex {
+    display: flex;
 }
 
-header{
-    max-width: 100%;
-    height: 100vh;
+.itens-center {
+    align-items: center;
 }
+
+.btn-default {
+    max-width: 16.8rem;
+    height: 3rem;
+    background: var(--primary);
+    color: var(--black);
+    padding: 16px 24px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-default:hover{
+    background-color: var(--primary-dark);
+}
+
+.btn-dashed{
+    max-width: 16.8rem;
+    height: 3rem;
+    background: rgba(217, 217, 217, 9%);
+    color: var(--light-dark);
+    font-weight: bold;
+    border: 2px dashed var(--light-dark);
+    gap: 13px;
+    padding: 16px 24px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+/* START HEADER */
+header{
+    background-image: url("../img/background-header.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cover {
+    background-color: rgba(0,0,0,75%);
+    min-height: 100vh;
+}
+.container {
+    max-width: 90%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+.top{
+    display: flex;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4.8rem;
+    padding-top: 2.2rem;
+}
+.logo{
+    width: 145px;
+    height: 77px;
+    margin-right: 3.75rem;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1.3rem;
+}
+.nav ul li a {
+    color: var(--light);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.nav ul li a:hover {
+    color: var(--primary);
+}
+.btn-top-zap-ul{
+    display: none;
+}
+.menu-icon{
+    display: none;
+    width: 40px;
+    cursor: pointer;
+    color: var(--light);
+}
+
+.hero{
+    margin-top: 5.6rem;
+}
+.hero-title {
+    color: var(--light);
+    font-weight: bold;
+    font-size: 3.7rem;
+}
+.hero-description {
+    color: var(--light);
+    line-height: 27px;
+    font-size: 1rem;
+    max-width: 50%;
+    margin-bottom: 3rem;
+}
+/* START HEADER */
+
+

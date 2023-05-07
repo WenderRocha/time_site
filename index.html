@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#0D0D0C">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Time - Agência de Marketing Digital</title>
 
     <!-- Normalize CSS -->
@@ -15,52 +17,62 @@
 
 </head>
 <body>
-    <!-- START HEADER -->
     <header>
+        <div class="cover">
+            <div class="container">
+                <!-- START NAV -->
+                <nav class="nav">
 
-        <!-- START TOP -->
-        <div class="container">
-            <div class="row">
-                <div class="top">
-                    <!-- logo -->
-                    <img src="assets/img/logo.jpg" alt="Logotipo da Empresa Time" title="Time - Agência de Marketing">
-                    <!-- logo -->
+                    <div class="top">
+                        <!-- logo -->
+                        <img class="logo" src="assets/img/logo.png" alt="Logotipo da Empresa Time" title="Time - Agência de Marketing">
+                        <!-- logo -->
 
-                    <!-- nav -->
-                    <nav>
-                        <ul>
+                        <!-- MENU -->
+                        <ul class="menu">
                             <li><a href="#home" title="Home">Home</a></li>
                             <li><a href="#services" title="Serviços">Serviços</a></li>
                             <li><a href="#cases" title="Cases">Cases</a></li>
+                            <li><a href="#cases" title="Cases">Sobre Nós</a></li>
                             <li><a href="#team" title="Equipe">Equipe</a></li>
                             <li><a href="#contact" title="Contato">Contato</a></li>
                         </ul>
-                    </nav>
-                    <!-- nav -->
+                        <!-- MENU -->
+                    </div>
 
                     <!-- button -->
-                    <button>+ 55 19 99953-2718</button>
+                    <button class="btn-top-zap btn-dashed" title="+ 55 19 99953-2718">
+                        <img src="assets/img/ic_baseline-whatsapp.svg" alt="Número do WhatsApp" title="+ 55 19 99953-2718">
+                        + 55 19 99953-2718
+                    </button>
                     <!-- button -->
-                </div>
+
+                    <!-- MENU MOBILE ICON -->
+                    <div class="menu-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </div>
+                    <!-- MENU MOBILE ICON -->
+                </nav>
+                <!-- END NAV -->
+
+                <!--START HERO -->
+                <section class="hero">
+                    <h1 class="hero-title">Teu <span class="c-primary">Sucesso</span><br> É o Nosso Negócio!</h1>
+                    <p class="hero-description">
+                        Oferecemos serviços de marketing digital completos, incluindo gestão de tráfego, mídias sociais e
+                        inteligência de marketing digital.
+                    </p>
+                   <div class="hero-btn">
+                       <button class="btn-default" title="Fale com um especialista">Fale com um especialista</button>
+                   </div>
+                </section>
+                <!--END HERO -->
             </div>
         </div>
-        <!-- END TOP -->
-
-        <!-- START HERO -->
-        <div class="container">
-            <div class="row">
-                <h1>Teu Sucesso É o Nosso Negócio!</h1>
-                <p>
-                    Oferecemos serviços de marketing digital completos, incluindo gestão de tráfego, mídias sociais e
-                    inteligência de marketing digital. Conte conosco para todas as suas necessidades de marketing
-                    online, com soluções eficazes e personalizadas para ajudar seu negócio a crescer e prosperar.
-                </p>
-                <button>Fale com um especialista</button>
-            </div>
-        </div>
-        <!-- END HERO -->
-
     </header>
-    <!-- END HEADER-->
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
