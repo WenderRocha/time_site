@@ -33,6 +33,13 @@ body{
     background-color: #F4F4F4;
 }
 
+.container {
+    max-width: 1170px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 3%;
+}
+
 .c-primary {
     color: var(--primary);
 }
@@ -93,12 +100,7 @@ header{
     background-color: rgba(0,0,0,70%);
     min-height: 100vh;
 }
-.container {
-    max-width: 1170px;
-    min-height: 100vh;
-    margin: 0 auto;
-    padding: 0 3%;
-}
+
 .top{
     display: flex;
     align-items: center;
@@ -162,7 +164,6 @@ header{
 /**
     SERVICES
  */
-
 #services{
     padding-top: 4rem;
 }
@@ -228,51 +229,182 @@ header{
 /**
     DEPOIMENTS
  */
-    #depoiments{
-        margin-top: 8rem;
-        height: 100vh;
-    }
-    .depoiment {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .depoiment p {
-        line-height: 30px;
-        text-align: center;
-        max-width: 70%;
-    }
-    .depoiment-img {
-        margin-bottom: 3rem;
-        border-radius: 100px;
-    }
-    .depoiment-desc {
-        margin-bottom: 3rem;
-    }
-    .depoiment-client {
-        color: var(--dark);
-        font-size: 18px;
-        font-weight: bold;
-        text-align: center;
-    }
-    .depoiment-company {
-        font-size: 14px;
-    }
+#depoiments{
+    margin-top: 8rem;
+    padding-bottom: 20px;
+}
 
-/**
-    DEPOIMENTS
- */
-
-
-
-.splide__slide {
+.splide{
+    margin-top: 3rem;
+}
+.splide__slide{
+    height: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.splide__list {
-    height: 100vh!important;
+
+.depoiment-img {
+    margin-bottom: 3rem;
+    border-radius: 100px;
+}
+.depoiment-desc {
+    line-height: 30px;
+    text-align: center;
+    max-width: 70%;
+}
+.depoiment-client {
+    color: var(--dark);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2rem;
+}
+.depoiment-company {
+    font-size: 14px;
+    margin-top: 1rem;
 }
 
+.splide__pagination {
+    bottom: -1.5em!important;
+}
+/**
+    DEPOIMENTS
+ */
+
+/**
+    ABOUT
+ */
+#about{
+    background-color: var(--light);
+    height: 100vh;
+}
+.about-content {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#about h2 {
+    padding-top: 5rem;
+}
+
+.about-desc {
+    width: 40%;
+
+}
+.about-desc p{
+    line-height: 30px;
+    font-size: 1rem;
+    max-width: 470px;
+    margin-top: 5rem;
+    color: var(--secondary);
+}
+.about-social{
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.about-img img {
+    position: relative;
+    top: 189px;
+    right: -9px;
+    z-index: 99;
+}
+.about-btn {
+
+}
+/**
+    ABOUT
+ */
+
+
+
+#team{
+    background-color: var(--dark);
+    top: 2px;
+    position: relative;
+}
+.team-content {
+    padding-top: 8rem;
+    padding-bottom: 9rem;
+}
+.team-content h2 {
+    color: var(--light);
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 40px;
+}
+.team-desc {
+    color: var(--light-dark);
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 500;
+    line-height: 30px;
+}
+.team-cards {
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+}
+.team-card {
+    background-color: var(--secondary);
+    width: 50%;
+    margin-top: 4rem;
+    border-radius: 8px;
+    padding: 31px 0 31px 33px;
+}
+.team-card-content {
+    max-width: 343px;
+}
+.team-card-header {
+    display: flex;
+    align-items: center;
+    gap: 2.145rem;
+}
+.team-card-title {
+    font-size: 23px;
+    font-weight: 700;
+    color: var(--light);
+    line-height: 27px;
+}
+.team-card-function {
+    color: var(--light-dark);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 19px;
+    margin-top: 0.9rem;
+}
+.team-card-img {
+    max-width: 121px;
+    max-height: 121px;
+    border-radius: 100%;
+}
+
+.team-card-desc {
+    margin-top: 1.7rem;
+    color: var(--light-dark);
+    line-height: 30px;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+.team-card-social {
+    margin-top: 2.6rem;
+}
+#contact {
+    background-color: var(--secondary);
+}
+.contact-content{
+    padding-top: 6.7rem;
+}
+.contact-title {
+    color: var(--primary);
+    margin-bottom: 1.4rem;
+}
+.contact-desc {
+    text-align: center;
+    color: var(--light-dark);
+}
