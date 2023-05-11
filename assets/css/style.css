@@ -33,6 +33,10 @@ body{
     background-color: #F4F4F4;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     max-width: 1170px;
     min-height: 100vh;
@@ -407,4 +411,116 @@ header{
 .contact-desc {
     text-align: center;
     color: var(--light-dark);
+}
+
+.contact-area{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6.25rem;
+    padding-bottom: 8.5rem;
+}
+.contact-info {
+    max-width: 45%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contact-info h4{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: var(--primary);
+}
+.contact-info h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: var(--primary);
+    margin-bottom: 14px
+}
+.contact-info p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 25px;
+    color: var(--light);
+}
+.contact-form{
+    max-width: 45%;
+}
+.form-row{
+    display: flex;
+    gap: 30px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+label{
+    margin-bottom: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 21px;
+    color: var(--primary);
+}
+.input {
+    min-width: 270px;
+    height: 49px;
+    border: 1px solid var(--primary);
+    background-color: transparent;
+    border-radius: 8px;
+    color: var(--primary);
+    outline: none;
+    padding-left: 10px;
+}
+
+.textarea {
+    min-width: 570px;
+    min-height: 134px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    outline: none;
+    color: var(--primary);
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.required{
+    color: var(--danger-light);
+}
+
+footer {
+    background-color: var(--black);
+    min-height: 340px;
+    color: var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.logo-footer {
+    margin-bottom: 3rem;
+}
+
+.copy {
+    background-color: var(--secondary);
+
+}
+.copy-content {
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light);
+}
+.copy-3 {
+    color: #FFA500;
+    font-weight: bold;
 }
